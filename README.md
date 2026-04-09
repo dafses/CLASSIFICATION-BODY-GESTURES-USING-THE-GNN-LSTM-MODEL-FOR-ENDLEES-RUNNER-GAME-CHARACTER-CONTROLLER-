@@ -36,11 +36,33 @@ Dataset consists of raw gesture videos:
 - jump_left  
 - jump_right  
 - looking_down  
-- still_pose  
+- still_pose
+
+## Model Performance
+
+The model was evaluated using a test dataset consisting of 5 gesture classes.
+
+# Classification Report
+
+| Class          | Precision | Recall | F1-Score |
+|---------------|----------|--------|----------|
+| jump_in_place | 0.93     | 0.95   | 0.94     |
+| jump_left     | 1.00     | 0.93   | 0.96     |
+| jump_right    | 0.93     | 1.00   | 0.96     |
+| looking_down  | 0.95     | 1.00   | 0.98     |
+| still_pose    | 0.97     | 0.90   | 0.94     |
+
+---
+
+# Overall Performance
+
+- **Accuracy**: 95%  
+- **Macro Avg F1-Score**: 0.95  
+- **Weighted Avg F1-Score**: 0.95  
 
 How to Run the System ? 
 
-##IMPORTANT
+## IMPORTANT
 
 Before running the system, TCP Server (gesture_server.py) or Interface (python main.py), make sure these files are in the root directory:
 
@@ -57,7 +79,7 @@ These files are required for:
 
 If you use this project, please cite:
 
-Classification of the Direction of the Game Character Controller Based on Body Gestures Using GNN-LSTM
+Oddy Virgantara Putra and others, 15.March (2026) Learning Temporal Graph Representations for Intelligent Control in 3D Endless Runner Games. TEKNIKA.
 
 supporting article citations: 
 
