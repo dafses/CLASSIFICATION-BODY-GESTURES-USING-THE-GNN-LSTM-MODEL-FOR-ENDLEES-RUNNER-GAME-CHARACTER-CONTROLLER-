@@ -1,0 +1,11 @@
+torch
+torch-geometric
+torch-scatter
+torch-sparse
+mediapipe
+opencv-python
+numpy
+scikit-learn
+matplotlib
+seaborn
+tqdm
